@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   root 'home#index'
   post 'home/email_send' => 'home#email_send'
   
-  get '/index' => "home#index"
+  get '/intro' => "home#intro"
   get '/moim' => "home#moim"
 
   # The priority is based upon order of creation: first created -> highest priority.
